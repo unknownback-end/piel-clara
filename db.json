@@ -1,0 +1,59 @@
+{
+  "consejos": [
+    {
+      "categoria": "Limpieza Facial",
+      "titulo": "Lávate la cara dos veces al día",
+      "contenido": "Usa un limpiador suave por la mañana y antes de dormir."
+    },
+    {
+      "categoria": "Hábitos de Vida Saludables",
+      "titulo": "Mantén una alimentación balanceada",
+      "contenido": "Evita comidas muy grasas o azucaradas. Prefiere frutas, verduras y agua."
+    },
+    {
+      "categoria": "Errores Comunes",
+      "titulo": "No revientes los granos",
+      "contenido": "Esto puede causar cicatrices permanentes o infecciones."
+    },
+    {
+      "categoria": "Tratamientos Naturales",
+      "titulo": "Aplica aloe vera en zonas afectadas",
+      "contenido": "El aloe tiene propiedades antiinflamatorias y cicatrizantes."
+    },
+    {
+      "categoria": "Cuidados Diarios",
+      "titulo": "Usa protector solar",
+      "contenido": "La exposición al sol puede empeorar las marcas de acné."
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Gel limpiador neutro",
+      "descripcion": "Limpia profundamente sin resecar la piel.",
+      "precio": "19.99",
+      "imagen": "limpiador.jpg"
+    },
+    {
+      "nombre": "Gel limpiador Neutrogena",
+      "descripcion": "Ideal para piel grasa con tendencia acneica.",
+      "precio": 45.50,
+      "imagen": "neutrogena.jpg"
+    },
+    {
+      "nombre": "Crema hidratante Cetaphil",
+      "descripcion": "Hidrata sin obstruir los poros.",
+      "precio": 38.90,
+      "imagen": "cetaphil.jpg"
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Es malo usar maquillaje si tengo acné?",
+      "respuesta": "No necesariamente. Usa maquillaje no comedogénico y retíralo antes de dormir."
+    },
+    {
+      "pregunta": "¿El estrés empeora el acné?",
+      "respuesta": "Sí, el estrés puede aumentar la producción de grasa y causar brotes."
+    }
+  ]
+}
