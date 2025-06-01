@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="description" content="Guía avanzada para combatir el acné con ciencia y estilo. Consejos, causas, productos recomendados y tutoriales.">
+<meta name="keywords" content="acné, cuidado piel, espinillas, consejos, productos para acné, tutoriales">
+<meta name="author" content="Ecoskin">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ecoskin - Cuidado del Acné</title>
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <header>
+ </header>
+
+</head>
+<body>
+
+
+  <header class="hero">
+    <div class="logo">
+    <img src="img/logo.png" alt="Logo" />
+  </div>
+    <div class="hero-text">
+      <h1>Ecoskin</h1>
+      <p>Tu guía avanzada para combatir el acné con ciencia y estilo</p>
+    </div>
+  </header>
+  
+<!-- Reproductor de música -->
+<section id="musicControl" style="text-align: center; margin: 20px 0;">
+  <audio id="backgroundMusic" loop>
+    <source src="img/musica.mp3" type="audio/mp3">
+    Tu navegador no soporta el audio HTML5.
+  </audio>
+  <button id="toggleMusicBtn" class="btn-guia">▶️ Reproducir música</button>
+</section>
+
+<script>
+  const music = document.getElementById('backgroundMusic');
+  const btn = document.getElementById('toggleMusicBtn');
+
+  btn.addEventListener('click', () => {
+    if (music.paused) {
+      music.play();
+      btn.textContent = '⏸️ Pausar música';
+    } else {
+      music.pause();
+      btn.textContent = '▶️ Reproducir música';
+    }
+  });
+</script>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#que-es">¿Qué es?</a></li>
+      <li><a href="#causas">Causas</a></li>
+      <li><a href="#consejos">Consejos</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#tutoriales">Tutoriales</a></li>
+      <li><a href="#faq">Preguntas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+<section id="que-es" class="card glass">
+  <h2>¿Qué es el acné?</h2>
+  <p>
+    El acné es una condición de la piel que se caracteriza por la aparición de granos o espinillas, que pueden ser causados por la obstrucción de los folículos pilosos con grasa y células muertas. Generalmente se manifiesta en la cara, cuello, espalda, pecho y hombros.
+  </p>
+
+  <h3>Descripción detallada:</h3>
+
+  <ul>
+    <li><strong>Obstrucción de los folículos pilosos:</strong> El acné se produce cuando los folículos pilosos se tapan con sebo (grasitud natural de la piel) y células muertas.</li>
+
+    <li><strong>Formación de lesiones:</strong> La obstrucción causa la formación de diferentes tipos de lesiones, como:
+      <ul>
+        <li><strong>Comedones:</strong> Pueden ser abiertos (puntos negros) o cerrados (puntos blancos).</li>
+        <li><strong>Pústulas:</strong> Grano inflamado con pus.</li>
+        <li><strong>Quistes:</strong> Grano más profundo y doloroso.</li>
+      </ul>
+    </li>
+
+    <li><strong>Inflamación y enrojecimiento:</strong> La obstrucción y la acumulación de bacterias en los folículos pilosos causan inflamación y enrojecimiento de la piel.</li>
+
+    <li><strong>Factores hormonales:</strong> Los cambios hormonales, como los que ocurren durante la pubertad, pueden aumentar la producción de sebo y contribuir a la aparición de acné.</li>
+
+    <li><strong>Afecta a personas de todas las edades:</strong> Aunque es común en adolescentes y adultos jóvenes, el acné puede afectar a personas de todas las edades.</li>
+  </ul>
+</section>
+
+    
+
+    <section id="causas" class="card glass">
+      <h2>Causas comunes</h2>
+      <ul class="icon-list">
+        <li>Cambios hormonales</li>
+        <li>Dieta alta en azúcares</li>
+        <li>Estrés crónico</li>
+        <li>Productos comedogénicos</li>
+        <li>Higiene deficiente o excesiva</li>
+      </ul>
+    </section>
+
+   <section id="consejos" class="card glass">
+  <h2>Consejos de cuidado</h2>
+  <div class="consejo-item">
+    <p>🧼 Lava tu rostro dos veces al día</p>
+    <a href="https://www.youtube.com/watch?v=oXfM5-QrLQE" target="_blank" class="btn-guia">Cómo hacerlo</a>
+  </div>
+  <div class="consejo-item">
+    <p>💧 Hidrata aunque tengas piel grasa</p>
+    <a href="https://youtu.be/BsfaUIXIbNg?si=m3cHPLkUv3AvaI1J" target="_blank" class="btn-guia">Cómo hacerlo</a>
+  </div>
+  <div class="consejo-item">
+    <p>🌞 Usa protector solar todos los días</p>
+    <a href="https://youtu.be/qDY168fdPSw?si=aRmflGElysOjzco1" target="_blank" class="btn-guia">Cómo hacerlo</a>
+  </div>
+  <div class="consejo-item">
+    <p>🧴 Exfolia suavemente 1 o 2 veces por semana</p>
+    <a href="https://youtube.com/shorts/mT9upNjHluU?si=Jh9IGNusHYf-O-26" target="_blank" class="btn-guia">Cómo hacerlo</a>
+  </div>
+  <div class="consejo-item">
+    <p>🛌 Cambia tu funda de almohada regularmente</p>
+  </div>
+  <div class="consejo-item">
+    <p>❌ Evita productos con alcohol y fragancias</p>
+  </div>
+  <div class="consejo-item">
+    <p>👩‍⚕️ Consulta a un dermatólogo si el acné persiste</p>
+  </div>
+
+  <!-- Botón de más información -->
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="https://medlineplus.gov/spanish/ency/patientinstructions/000750.htm" target="_blank" class="btn-mas-info">Más información</a>
+  </div>
+</section>
+
+
+    <section id="productos" class="card glass">
+  <h2>Productos recomendados</h2>
+  <div class="productos-grid">
+    <a href="https://youtu.be/ZBzGfaGAeVk?si=zV7KlqPIyjtZbn-L" target="_blank" class="producto-item enlace-producto">
+      <img src="img/carave.webp" alt="CeraVe" />
+      <h3>CeraVe Limpiador</h3>
+      <p>Ideal para piel acnéica con ácido salicílico y niacinamida.</p>
+    </a>
+       <a href="https://youtu.be/gmYEzmLhKbQ?si=ywI6AlG18Y0Myj7r" target="_blank" class="producto-item enlace-producto">
+      <img src="img/aloe_vera.webp" alt="aloe_vera" />
+      <h3>Aloe Vera</h3>
+      <p>Hidratante sin obstruir poros, cicatrizante, calmante.</p>
+    </a>
+    <a href="https://youtu.be/RwzBw18HiD4?si=oHrGKPwi7QaB4qVz" target="_blank" class="producto-item enlace-producto">
+      <img src="img/miel.webp" alt="miel" />
+      <h3>Miel de abeja cruda</h3>
+      <p>Antibacteriana, cicatrizante, antiinflamatoria.</p>
+    </a>
+  </div>
+</section>
+    <section id="tutoriales" class="card glass">
+  <h2>Tutoriales en Video</h2>
+  <div class="video-grid">
+    <iframe src="https://www.youtube.com/embed/Zly1_htMSdg" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/W_8M-Sl8Yzw" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/4bZlCjGiqPg" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/MYZ3h1UBIUo?si=Y8BV6v0a8IraNnuB" allowfullscreen></iframe>
+  </div>
+</section>
+
+
+    <section id="faq" class="card glass">
+  <h2>Preguntas Frecuentes</h2>
+
+  <div class="faq-item">
+    <h4>¿Solo los adolescentes tienen acné?</h4>
+    <p>No, puede aparecer a cualquier edad.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Debo dejar el chocolate?</h4>
+    <p>No necesariamente, aunque el exceso podría influir.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Cuánto tiempo tarda en mejorar el acné con tratamiento?</h4>
+    <p>Depende del tipo de acné y tratamiento, pero usualmente entre 4 a 8 semanas.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Es bueno apretar los granos?</h4>
+    <p>No, puede causar infecciones y cicatrices.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿El maquillaje empeora el acné?</h4>
+    <p>Puede, si no usas productos no comedogénicos y limpias bien la piel.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿La dieta realmente influye en el acné?</h4>
+    <p>Algunos estudios sugieren que alimentos con alto índice glucémico pueden afectar, pero no es igual para todos.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Puedo usar exfoliantes todos los días?</h4>
+    <p>No, exfoliar en exceso puede irritar la piel. Lo recomendable es 1 o 2 veces por semana.</p>
+  </div>
+
+</section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Página creada por <strong>Ecoskin</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
